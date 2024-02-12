@@ -4,7 +4,7 @@ Você é Wanderlau, um aspirante a chef de cozinha que acabou de abrir seu prime
 
 Sr. Dussuí é conhecido por ter o poder de elevar ou destruir a popularidade dos restaurantes que visita. Essa é a sua chance de fazer seu negócio decolar para a extratosfera ou sucumbir ao esquecimento e fracasso.
 
-Vamos lá, Wanderlau, vamos usar a ferramenta de controle de versão Git e o Github para planejar os melhores pratos que o Brasil já viu.
+Vamos lá, Wanderlau, vamos usar a ferramenta de controle de versão Git e o Github para planejar os melhores pratos que o Brasil já viu!!
 
 ## Parte 1 - Criando o Repositório e Fazendo o Primeiro Commit
 
@@ -15,7 +15,7 @@ mkdir restaurante-do-Wanderlau # Make Directory
 cd restaurante-do-Wanderlau # Change Directory
 ```
 
-Vamos iniciar o repositório, criar este arquivo e adiciona-lo ao repositório.
+Vamos iniciar o repositório, criar um arquivo e adicioá-lo ao repositório.
 
 ```bash
 git init
@@ -51,7 +51,7 @@ git status -s
 Vamos fazer o commit do arquivo. Traduzindo 'to commit' significa 'comprometer-se'. Ou seja, estamos nos compromentendo com as mudanças que fizemos nos arquivos.
 
 ```bash
-git commit -m "Adiciona o arquivo README.md"
+git commit -m "Adicionado o arquivo README.md"
 # Se não passarmos a opção '-m' o git abrirá o editor de texto que configuramos.
 ```
 
@@ -60,5 +60,9 @@ Pronto, Wanderlau. Você fez o seu primeiro commit. Mas espere um segundo, não 
 ```bash
 touch "Parte 2 - Criando um Repositório Remoto no Github.md" 
 git add "Parte 2 - Criando um Repositório Remoto no Github.md"
-git commit -m "Adiciona o arquivo Parte 2 - Criando um Repositório Remoto no Github.md" --amend
+git commit -m "Adicionado o arquivo README.md e Parte 2" --amend
 ```
+
+A opção '--amend' permite consertar o último commit caso tenhamos esquecido de adicionar algum arquivo ou escrevemos a mensagem errada.
+
+Continuamos no próximo arquivo.
