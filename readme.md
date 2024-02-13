@@ -63,6 +63,6 @@ git add "Parte 2 - Criando um Repositório Remoto no Github.md"
 git commit -m "Adicionado o arquivo README.md e Parte 2" --amend
 ```
 
-A opção '--amend' permite consertar o último commit caso tenhamos esquecido de adicionar algum arquivo ou escrevemos a mensagem errada.
+A opção '--amend' permite consertar o último commit caso tenhamos esquecido de adicionar algum arquivo ou escrevemos a mensagem errada. É como se o último commit nunca tivesse acontecido.
 
 Continuamos no próximo arquivo.
