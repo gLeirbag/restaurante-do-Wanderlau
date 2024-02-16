@@ -2,13 +2,14 @@
 
 ## Revisão do Capítulo Anterior
 
-Ei, Wanderlau! No último capítulo você criou um repositório remoto no Github e o associou ao repositório local. Agora finalmente você podera começar a definir as receitas para impressionar o **o Sr. Pierter Dussuí**.
+Ei, Wanderlau! No último capítulo você criou um repositório remoto no Github e o associou ao repositório local. Agora finalmente você poderá começar a definir as receitas para impressionar o **o Sr. Pierter Dussuí**.
 
 E então, Wanderlau, o que você tem em mente? Qual será a primeira receita que você irá criar?
 
 ## Criando um Arquivo de Receita
 
-Hmm, entendi, Wanderlau. Realmente parece sensato começar com a entrada. Uma salada com camarões e abacate, não é mesmo? Para Dussuí se aclimatar com o climar tropical do Brasil. Poxa, Wanderlau, você é um gênio!
+Hmm, entendi, Wanderlau. Realmente parece sensato começar com a entrada. Uma salada com camarões e abacate, não é mesmo? Para Dussuí se aclimatar com o 
+clima tropical do Brasil. Poxa, Wanderlau, você é um gênio!
 
 Então você criará um diretório para armazenar as receitas? Ah sim, suponho que possa usar o comando `mkdir Receitas` para criar o diretório e `cd Receitas` para entrar no diretório.
 
@@ -16,7 +17,7 @@ Então você criará um diretório para armazenar as receitas? Ah sim, suponho q
 
 Olha, fiquei com água na boca com essa sua receita. Mas, Wanderlau, o que é isso? O que é esse monte de caracteres aleatórios no final do arquivo?
 
-Oh não, Wandelau! Esta me dizendo que após você ter adicionar o arquivo `Entrada - Saladinha Básica.md` ao repositório local com o comando `git add "Entrada - Saladinha Básica.md"` um **gato** invadiu seu escritório pisou em seu teclado e escreveu um monte de caracteres aleatórios no arquivo?
+Oh não, Wanderlau! Esta me dizendo que após você ter adicionar o arquivo `Entrada - Saladinha Básica.md` ao repositório local com o comando `git add "Entrada - Saladinha Básica.md"` um **gato** invadiu seu escritório pisou em seu teclado e escreveu um monte de caracteres aleatórios no arquivo?
 
 ## Consertando Erros
 

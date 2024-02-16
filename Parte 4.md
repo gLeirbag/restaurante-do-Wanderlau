@@ -124,6 +124,8 @@ git merge carbonara
 
 Esse é um merge muito simples, a master deverá somente avançar para o commit mais atual, como se avançasse no tempo. Um simples "fast-forward". Como esse é o merge mais simples, onde não há divergências entre as branches, não devera haver nenhum problema.
 
+vamos deletar a `carbonara` agora, já que não precisamos mais dela. `git branch -d carbonara`.
+
 ```mermaid
 graph LR;
     0(198b8a8);
@@ -140,5 +142,8 @@ graph LR;
 ```
 
 Boa, Wanderlau! Acho que agora só falta a sobremesa, já está pensando em algo?
+
+Não esqueça de empurrar as alterações para o repositório remoto!
+
 
 Continua no próximo capítulo...

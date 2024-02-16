@@ -43,7 +43,7 @@ Poh, Wanderlau! Não vou explicar como faz isso! O próprio Github conta com um 
 
 ## Fazendo o 'Push' dos Commits para o Repositório Remoto
 
-Ufa, finalmente! Agora conseguiremos adiconar a conexão remota.
+Ufa, finalmente! Agora conseguiremos adicionar a conexão remota.
 
 ```bash
 git remote add github git@github.com:gLeirbag/restaurante-do-Wanderlau.git
@@ -63,7 +63,7 @@ Bacana, agora que temos uma conexão remota. Ah! Não esqueça antes de fazer o 
 
 ```bash
 git add . # Adiciona todos os arquivos modificados ao index (Staging Area)
-git commit -m "Descrito como criar um repositório remoto no Github" # Commita as mudanças
+git commit -m "Descrito como criar um repositório remoto no Github" # "Commita" as mudanças
 ```
 
  podemos enviar nossos commits para o repositório remoto. Só basta usar o comando `git push github master`. "To push" significa "empurrar", ou seja, estamos empurrando nossos commits para o repositório remoto.

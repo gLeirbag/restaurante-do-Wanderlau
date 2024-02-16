@@ -1,6 +1,6 @@
 # Restaurante do Wanderlau
 
-Você é Wanderlau, um aspirante a chef de cozinha que acabou de abrir seu primeiro restaurante. Teu amigo Manoel, que trabalha para a ABIN, descobriu que o grande crítico gastronômico frânces, **o Sr. Pierter Dussuí**, visitará os restaurantes de sua cidade.
+Você é Wanderlau, um aspirante a chef de cozinha que acabou de abrir seu primeiro restaurante. Teu amigo Manoel, que trabalha para a ABIN, descobriu que o grande crítico gastronômico francês, **o Sr. Pierter Dussuí**, visitará os restaurantes de sua cidade.
 
 Sr. Dussuí é conhecido por ter o poder de elevar ou destruir a popularidade dos restaurantes que visita. Essa é a sua chance de fazer seu negócio decolar para a extratosfera ou sucumbir ao esquecimento e fracasso.
 
@@ -15,18 +15,18 @@ mkdir restaurante-do-Wanderlau # Make Directory
 cd restaurante-do-Wanderlau # Change Directory
 ```
 
-Vamos iniciar o repositório, criar um arquivo e adicioá-lo ao repositório.
+Vamos iniciar o repositório, criar um arquivo e adicioná-lo ao repositório.
 
 ```bash
 git init
-#Alternativamente, poderiamos ter criar o diretório e o repositório ao mesmo tempo com o comando:
+#Alternativamente, poderíamos ter criar o diretório e o repositório ao mesmo tempo com o comando:
 git init restaurante-do-Wanderlau
 
 touch readme # Cria um arquivo vazio
 git add readme # Fazemos com que o git rastreie o arquivo
 ```
 
-Droga, Wanderlau! Você criou o arquivo 'readme' mas o mais apropriado teria sido nomeá-lo como 'README.md'. Não se preucupe, vamos corrigir isso.
+Droga, Wanderlau! Você criou o arquivo 'readme' mas o mais apropriado teria sido nomeá-lo como 'README.md'. Não se preocupe, vamos corrigir isso.
 
 ```bash
 git mv readme README.md # Renomeia o arquivo
@@ -48,7 +48,7 @@ A primeira coluna mostra o status do arquivo em relação ao último commit. A s
 git status -s
 ```
 
-Vamos fazer o commit do arquivo. Traduzindo 'to commit' significa 'comprometer-se'. Ou seja, estamos nos compromentendo com as mudanças que fizemos nos arquivos.
+Vamos fazer o commit do arquivo. Traduzindo 'to commit' significa 'comprometer-se'. Ou seja, estamos nos comprometendo com as mudanças que fizemos nos arquivos.
 
 ```bash
 git commit -m "Adicionado o arquivo README.md"
