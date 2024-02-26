@@ -1,4 +1,6 @@
-# Restaurante do Wanderlau
+# ⚠️⚠️⚠️ Em Construção
+
+## Restaurante do Wanderlau
 
 Você é Wanderlau, um aspirante a chef de cozinha que acabou de abrir seu primeiro restaurante. Teu amigo Manoel, que trabalha para a ABIN, descobriu que o grande crítico gastronômico frânces, **o Sr. Pierter Dussuí**, visitará os restaurantes de sua cidade.
 
