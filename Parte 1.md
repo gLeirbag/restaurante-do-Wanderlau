@@ -7,7 +7,7 @@ mkdir restaurante-do-Wanderlau # Make Directory
 cd restaurante-do-Wanderlau # Change Directory
 ```
 
-Vamos iniciar o repositório, criar um arquivo e adicioná-lo nele.
+Vamos iniciar o repositório, criar um novo arquivo e adicioná-lo nele.
 
 ```bash
 git init
@@ -18,7 +18,7 @@ touch readme # Cria um arquivo vazio
 git add readme # Fazemos com que o git rastreie o arquivo
 ```
 
-Droga, Wanderlau! Você criou o arquivo 'readme' mas o mais apropriado teria sido nomeá-lo como 'README.md'. Não se preocupe, vamos corrigir isso.
+Droga, Wanderlau! Você criou o arquivo 'readme' mas o mais apropriado teria sido nomeá-lo como 'README.md'. Não se preocupe, para corrigir basta renomear o arquivo com o comando 'git mv'.
 
 ```bash
 git mv readme README.md # Renomeia o arquivo

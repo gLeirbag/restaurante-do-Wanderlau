@@ -2,7 +2,7 @@
 
 ## Restaurante do Wanderlau
 
-Você é Wanderlau, um aspirante a chef de cozinha que acabou de abrir seu primeiro restaurante. Teu amigo Manoel, que trabalha para a ABIN, descobriu que o grande crítico gastronômico francês, **o Sr. Pierter Dussuí**, visitará os restaurantes de sua cidade.
+Você é Wanderlau, um aspirante a chef de cozinha que acabou de abrir seu primeiro restaurante. Teu amigo Manoel, que trabalha para a ABIN - agência de inteligência do Brasil -, descobriu que o grande crítico gastronômico francês, **o Sr. Pierter Dussuí**, visitará os restaurantes de sua cidade.
 
 Sr. Dussuí é conhecido por ter o poder de elevar ou destruir a popularidade dos restaurantes que visita. Essa é a sua chance de fazer seu negócio decolar para a estratosfera ou sucumbir ao esquecimento e fracasso.
 
