@@ -1,5 +1,8 @@
 # Configurando o Git
 
+>[!TIP]
+> Entenda como "escopo" a "visibilidade" que uma configuração possui. Por exemplo, uma configuração global é visível para todos os repositórios que você criar, enquanto uma configuração local é visível apenas para um repositório específico, tu vai entender.
+
 O **git** possuí três arquivos de configuração com definições de variáveis que controlam os aspectos de seu funcionamento. Estes arquivos podem ser encontrados em:
 
 **Windows:**
@@ -55,7 +58,7 @@ git config --system core.editor "notepad.exe"
 
 Dessa forma, o git abrirá aquele editor de texto padrão do Windows quando necessário. Repare que nesse exemplo usamos a opção `--system`.
 
-## Voltar
+## Recomendado
 
-- [Início](../readme.md)
+- [Index](../readme.md)
 - [Parte 1 - Iniciando um Repositório](../Parte%201.md)

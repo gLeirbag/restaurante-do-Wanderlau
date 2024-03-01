@@ -1,5 +1,8 @@
 # Parte 1 - Criando o Repositório e Fazendo o Primeiro Commit
 
+> [!TIP]
+> Caso não tenha configurado o git ou não saiba sequer o que isso significa, é bom ler [Configurando o Git](Outros/Configurando%20o%20Git.md), não é nada complicado, fazer um miojo é muito mais difícil.
+
 Primeiramente, Wanderlau. Você criará um repositório para armazenar as receitas que você planeja criar. Por isso, criaremos no seu computador um diretório para armazenar o repositório. Abra o terminal e digite:
 
 ```bash
@@ -7,26 +10,38 @@ mkdir restaurante-do-Wanderlau # Make Directory
 cd restaurante-do-Wanderlau # Change Directory
 ```
 
-Vamos iniciar o repositório, criar um novo arquivo e adicioná-lo nele.
+Vamos iniciar o repositório, criar um novo arquivo e adicioná-lo ao repositório.
 
 ```bash
 git init
-#Alternativamente, poderíamos ter criar o diretório e o repositório ao mesmo tempo com o comando:
+# Alternativamente, poderíamos ter criar o diretório e o repositório ao mesmo tempo
+# com o comando:
 git init restaurante-do-Wanderlau
 
-touch readme # Cria um arquivo vazio
-git add readme # Fazemos com que o git rastreie o arquivo
+# No Linux, podemos criar um arquivo com o comando 'touch'
+touch readme 
+# No Windows, podemos criar um arquivo com o comando 'echo'
+echo.>readme
+
+# Fazemos com que o git rastreie o arquivo
+git add readme 
 ```
 
-Droga, Wanderlau! Você criou o arquivo 'readme' mas o mais apropriado teria sido nomeá-lo como 'README.md'. Não se preocupe, para corrigir basta renomear o arquivo com o comando 'git mv'.
+Droga, Wanderlau! Nomeamos o arquivo como `readme`, mas o mais apropriado teria sido nomeá-lo como 'README.md'.
+
+Não se preocupe, para corrigir basta renomear o arquivo com o comando 'git mv'.
 
 ```bash
 git mv readme README.md # Renomeia o arquivo
 ```
 
-Ótimo, dessa forma não precisamos deletar o arquivo antigo e criar outro.
+Se não usarmos esse comando, poderia ter renomeado o arquivo manualmente e depois re-adicionado o arquivo ao repositório com o comando `git add README.md`.
+
+> [!IMPORTANT]
+> Ei Wanderlau, vai facilitar muito seu entendimento da próxima seção se você ler [Estados de um Arquivo Rastreado e Sobre um Repositório](Outros/Estados%20de%20um%20arquivo%20e%20Sobre%20um%20Reposit%C3%B3rio.md).
 
 ## Informações sobre os estados atuais dos arquivos
+
 
 Vamos ver os *status* do repositório. O comando 'git status', com a opção '-s', mostra o status do repositório de forma resumida.
   
@@ -68,3 +83,8 @@ A opção '--amend' permite consertar o último commit caso tenhamos esquecido d
 ## Conclusão
 
 Nessa parte inicial, você - Wanderlau - aprendeu a criar um repositório local, a adicionar arquivos a ele e a fazer o primeiro commit. No próximo passo, você aprenderá a criar um repositório remoto no Github e a adicionar uma conexão remota ao repositório local.
+
+
+- [Index](readme.md)
+-   [Parte 2 - Criando um Repositório Remoto no Github](Parte%202%20-%20Criando%20um%20Reposit%C3%B3rio%20Remoto%20no%20Github.md)
+

@@ -67,3 +67,7 @@ git commit -m "Descrito como criar um repositório remoto no Github" # "Commita"
 ```
 
  podemos enviar nossos commits para o repositório remoto. Só basta usar o comando `git push github master`. "To push" significa "empurrar", ou seja, estamos empurrando nossos commits para o repositório remoto.
+
+- [**Index**](readme.md)
+- [**Parte 1 - Iniciando um Repositório**](Parte%201.md)
+- [**Parte 3**](Parte%203.md)
