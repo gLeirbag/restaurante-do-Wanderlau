@@ -22,7 +22,7 @@ Escolha se o repositório será público ou privado, e não marque as opções p
 
 **Isso porque já temos um repositório local**, o que planejamos fazer é somente copiar nosso repositório local para o repositório remoto vazio.
 
->[!WARNING]
+>[!WARNING] Aviso!
 > Se marcar uma opção que adicione um arquivo, o repositório remoto terá um commit que nosso repositório local não tem, o que causará um conflito.
 
 ## Adicionando uma Conexão Remota no Repositório Local
@@ -39,7 +39,7 @@ Se usarmos a URL com o protocolo **HTTPS** (i.e. `https://github.com/gLeirbag/re
 
 Há uma opção de armazenar o token de acesso em cache, mas pessoalmente não fui atrás de como fazer isso.
 
-> [!TIP]
+> [!TIP] Dica
 > Caso queira criar um token de acesso e ler mais sobre como armazenar o token em caches:
 > - [GitHub - Página de Tokens](<https://github.com/settings/tokens>)
 > - [GitHub - Caching your GitHub credentials in Git](<https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git>)
@@ -47,7 +47,7 @@ Há uma opção de armazenar o token de acesso em cache, mas pessoalmente não f
 Vamos adicionar uma conexão remota usando o protocolo **SSH**(i.e. `git@github.com:gLeirbag/restaurante-do-Wanderlau.git`).
 Para isso, vamos criar uma chave pública e privada para o usuário de seu computador e compartilhar a chave pública com o seu perfil do GitHub.
 
-> [!TIP]
+> [!NOTE] Siga as Instruções abaixo.
 > Siga as instruções do GitHub para adicionar uma chave SSH ao seu perfil.
 > - [GitHub - Adding a new SSH key to your GitHub account](<https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account>)
 
@@ -82,4 +82,4 @@ Podemos enviar nossos commits para o repositório remoto. Só basta usar o coman
 
 - [**Index**](readme.md)
 - [**Parte 1 - Iniciando um Repositório**](Parte%201.md)
-- [**Parte 3**](Parte%203.md)
+- [**Parte 3 - Primeira Receita, *git restore* e *Tags***](Parte%203.md)

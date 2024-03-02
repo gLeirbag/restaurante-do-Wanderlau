@@ -37,8 +37,8 @@ git mv readme README.md # Renomeia o arquivo
 
 Se não usarmos esse comando, poderia ter renomeado o arquivo manualmente e depois re-adicionado o arquivo ao repositório com o comando `git add README.md`.
 
-> [!IMPORTANT]
-> Ei Wanderlau, vai facilitar muito seu entendimento da próxima seção se você ler [Estados de um Arquivo Rastreado e Sobre um Repositório](Outros/Estados%20de%20um%20arquivo%20e%20Sobre%20um%20Reposit%C3%B3rio.md).
+> [!IMPORTANT] Importante
+> Ei Wanderlau! Vai facilitar muito seu entendimento da próxima seção se você ler [Estados de um Arquivo Rastreado e Sobre um Repositório](Outros/Estados%20de%20um%20arquivo%20e%20Sobre%20um%20Reposit%C3%B3rio.md).
 
 ## Informações sobre os estados atuais dos arquivos
 
@@ -78,7 +78,10 @@ git add "Parte 2 - Criando um Repositório Remoto no Github.md"
 git commit -m "Adicionado o arquivo README.md e Parte 2" --amend
 ```
 
-A opção '--amend' permite consertar o último commit caso tenhamos esquecido de adicionar algum arquivo ou escrevemos a mensagem errada. É como se o último commit nunca tivesse acontecido.
+A opção '--amend' permite consertar o último commit caso tenhamos esquecido de adicionar algum arquivo ou escrevemos a mensagem errada. 
+
+> [!IMPORTANT] Importante
+> Ao usar `--amend`, é como se o commit anterior **nunca tivesse existido**.
 
 ## Conclusão
 
