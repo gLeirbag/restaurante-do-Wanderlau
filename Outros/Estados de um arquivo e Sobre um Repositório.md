@@ -66,10 +66,10 @@ O ***working directory*** nada mais é do que o diretório do teu projeto onde v
 A ***staging area***, muitas vezes referida como *index*, é um arquivo que representa uma lista que contém informações sobre o que irá para o próximo commit. O arquivo pode ser encontrado em `.git/index`. Pode pensar nela como o **"futuro" do seu repositório**.
 
 >[!TIP]
-> Em português, *staging area* pode ser traduzido como **área de preparação**. No correio, a área de preparação é onde as cartas são preparadas para serem enviadas.
+> Em português, *staging area* pode ser traduzido como **área de preparação**. No correio, a área de preparação é onde as cartas são envelopadas para serem enviadas.
 
 >[!TIP]
-> Num restaurante, como o de Wanderlau, a *staging area* seria uma mesa onde os pratos são preparados antes de serem enviados para os clientes.
+> Num restaurante, como o de Wanderlau, a *staging area* seria uma mesa onde os pratos são **montados** antes de serem enviados para os clientes.
 
 O ***.git directory*** é onde está armazenado os metadados e o banco de dados do git, lá é guardado os seus dados de forma compactada. Considerando que sempre começamos a atualizar nosso projeto a partir dos dados contidos no ***.git directory***, podemos dizer que ele representa o **"passado"**.
 

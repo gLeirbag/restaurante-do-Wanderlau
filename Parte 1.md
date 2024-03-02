@@ -86,5 +86,5 @@ Nessa parte inicial, você - Wanderlau - aprendeu a criar um repositório local,
 
 
 - [Index](readme.md)
--   [Parte 2 - Criando um Repositório Remoto no Github](Parte%202%20-%20Criando%20um%20Reposit%C3%B3rio%20Remoto%20no%20Github.md)
+- [Parte 2 - Criando um Repositório Remoto no Github](Parte%202.md)
 

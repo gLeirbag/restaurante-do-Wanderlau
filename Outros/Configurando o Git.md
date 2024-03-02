@@ -35,7 +35,7 @@ Pode listar as variáveis já definidas com o comando `git config --list --show-
 
 ## Configurando o Nome de Usuário e E-mail
 
-Você pode fazer as atribuições às variáveis tanto editando os arquivos de configuração manualmente com um editor de texto, como o **notepad** do Windows ou através do comando `git config`.
+Você pode fazer as atribuições às variáveis tanto editando os arquivos de configuração manualmente com um editor de texto - como o **notepad** do Windows - ou através do comando `git config`.
 
 Nós definimos nosso nome e e-mail para o git para usá-los como **uma assinatura dos nossos *commits***.
 
