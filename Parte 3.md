@@ -56,7 +56,7 @@ git diff "Entrada - Saladinha Básica.md"
 
 O comando `git diff` nos mostra a diferença no arquivo da *Working Directory* e o arquivo na *Staging Area* ou do último *commit* caso não tenha sido adicionado à *Staging Area* (que no caso também é a *Staging Area*, só que do último commit).
 
-> [!TIP] Dica
+> [!TIP]
 > O comando `git diff --staged` nos mostra a diferença entre o *Staging Area* e o último *commit*.
 
 Legal, agora confirmamos que o gato bagunçou o arquivo.
@@ -77,10 +77,10 @@ Changes not staged for commit:
 
 Oras, então é só usar o comando `git restore "Entrada - Saladinha Básica.md"` para desfazer as alterações que não foram adicionadas à *Staging Area*. Corrigido o problema!
 
-> [!TIP] Dica
+> [!TIP]
 > `git restore [arquivo]` é equivalente a `git checkout -- [arquivo]`, o primeiro comando é mais recente e mais intuitivo.
 
->[!TIP] Dica
+>[!TIP]
 > **Caso queira retirar um arquivo da *Staging Area* sem modifica-lo**, use o comando `git restore --staged [arquivo]`.
 
 ## Marcando um Marco com *Tags*
@@ -125,7 +125,7 @@ Poderíamos enviar todas as tags de uma vez com o comando `git push github --tag
 * Para ver informações sobre uma tag, use o comando `git show <tag>`.
 * Para associar uma tag a um commit específico, use o comando `git tag -a <tag> <hash do commit>`.
 
-> [!TIP] Dica
+> [!TIP]
 > Existem ferramentas pra úteis para usar o `git diff` de maneira mais intuitiva.
 
 * [**Index**](readme.md)
