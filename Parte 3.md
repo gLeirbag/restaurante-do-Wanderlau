@@ -114,6 +114,9 @@ Para enviar a tag para o repositório remoto, usamos o comando `git push github 
 
 Poderíamos enviar todas as tags de uma vez com o comando `git push github --tags`.
 
+>[!TIP]
+> Caso queira saber mais sobre as tags e outros objetos do git, leia [Objetos Git](Outros/Objetos%20Git.md).
+
 ## Outros detalhes
 
 * Para listar as tags, use o comando `git tag`.
@@ -125,6 +128,6 @@ Poderíamos enviar todas as tags de uma vez com o comando `git push github --tag
 > [!TIP] Dica
 > Existem ferramentas pra úteis para usar o `git diff` de maneira mais intuitiva.
 
-- [**Index**](readme.md)
-- [**Parte 2 - Adicionando uma Conexão Remota no Repositório Local**](Parte%202.md)
-- [**Parte 4 - *git restore* e *Tags***](Parte%204.md)
+* [**Index**](readme.md)
+* [**Parte 2 - Adicionando uma Conexão Remota no Repositório Local**](Parte%202.md)
+* [**Parte 4 - *git restore* e *Tags***](Parte%204.md)

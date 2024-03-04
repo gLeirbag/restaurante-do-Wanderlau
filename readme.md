@@ -12,12 +12,12 @@ Vamos lá, Wanderlau, vamos usar a ferramenta de controle de versão Git e o Git
 
 - [Parte 1 - Iniciando um Repositório](Parte%201.md)
 - [Parte 2 - Repositório Remoto no GitHub](Parte%202.md)
-- [Parte 3 - Primeira Receita e Tags](Parte%203.md)
+- [Parte 3 - Primeira Receita, *git diff*, *git restore* e *Tags*](Parte%203.md)
 - [Parte 4 - Branches e Merge Fast-Foward](Parte%204.md)
 
 ### Outros
 
-> [!NOTE]
+> [!NOTE] Nota
 > Pode-se ler estes textos quando citados ao longo do guia principal.
 
 - [Configurando o Git](Outros/Configurando%20o%20Git.md)
