@@ -2,19 +2,24 @@
 
 ## Recapitulação do último capítulo
 
-No último capítulo, você finalmente começou a criar as receitas para impressionar o **Sr. Pierter Dussuí**. No entanto, aprendemos a como retornar um arquivo para o estado que estava na *Staging Area* e como usar as ***tags*** para marcar pontos importantes no histórico do repositório.
+No último capítulo, você finalmente começou a criar as receitas para impressionar o **Sr. Pierter Dussuí**. 
+
+No entanto, ao nos depararmos com um problema, aprendemos a como usar o comando `git restore` para restaurar um arquivo ao seu estado anterior, aprendemos também a funcionalidade do `git diff` e como usar as ***tags*** para marcar pontos importantes no histórico do repositório.
 
 ## Introdução
 
-Bom, Wanderlau. Teu amigo, o Manoel, teve acesso a informações confidenciais que dizem que o Sr. Dussuí é um grande apreciador de massas, especificamente de *Spaghetti alla Carbonara*. Você sabe fazer essa receita?
+Bom, Wanderlau. Teu amigo, o Manoel - aquele que trabalha na ABIN - teve acesso a informações confidencialíssimas, mais quentes que um molho que acabou de ferver.
+
+Falando em molho, você gosta de massas? As informações dizem que **o Sr. Dussuí é um grande apreciador de massas**, especificamente de ***Spaghetti alla Carbonara***. Você sabe fazer essa receita?
 
 Não conhece? Não se preocupe, Wanderlau, aprendi a fazer essa receita com uma amiga seguramente italiana. Não confia em mim? Bom, me sinto meio ofendido, mas tudo bem.
 
-Vamos fazer o seguinte, então. Vamos criar uma ***branch*** para desenvolver a receita, se você gostar, podemos mesclar a ***branch*** com a *master*, se não, é só deletar a ***branch***, pode ser?
-
-To te falando, confia em mim!
+Vamos fazer o seguinte, então. Vamos criar uma ***branch*** para desenvolver a receita, se você gostar, podemos mesclar a ***branch*** com a *master*, se não, é só deletar a ***branch***, pode ser? "Cortar o galho" que não te agradou, *sacastes*?
 
 ## Criando uma Branch
+
+>[!TIP]
+> Se quiser saber mais sobre o conceito de ***branch***, veja [A Ideia da ***Branch***](Outros/A%20Ideia%20da%20Branch.md).
 
 É muito simples criar uma ***branch***. Vamos criar uma ***branch*** chamada `carbonara`.
 
@@ -45,9 +50,11 @@ Isto deve mostrar algo mais ou menos assim:
 Caramba, o que tudo isso significa? Bom, vamos lá. Na primeira linha do output temos o **hash** do último commit (um tipo de identificador), entre parênteses temos vários ponteiros que estão apontando para o tal commit: **HEAD**, **master**, **tag: v0.1**, **github/master** e **carbonara**.
 
 O **HEAD** é um ponteiro especial que aponta para a referência que está atualmente em uso. No caso, o **HEAD** está apontando para a *master*,
-Isso quer dizer que toda nossa working directory está baseada na *master*, que está apontando para o commit `d32f478`.
+Isso quer dizer que toda nosso *working directory* está baseada na ***master***, que está apontando para o commit `d32f478`.
 
 Além disso, repare meu caro cozinheiro, que criamos a ***branch*** `carbonara` mas a **HEAD** ainda está apontando para a *master*, como ilustrado no diagrama abaixo. Isso quer dizer que estamos trabalhando na *master* e não na `carbonara`.
+
+Ou seja, quando criamos a ***branch***, não automaticamente mudamos para ela.
 
 ```mermaid
 graph LR;
@@ -96,7 +103,21 @@ Outra coisa que é interessante notar é que a tag 'v0.1' é também um ponteiro
 
 ## Merge Fast-Forward
 
-Agora que estamos na ***branch*** `carbonara`, tomei a liberdade de ter criado a receita do *Spaghetti alla Carbonara* para você. Viu só? Eu falei que essa receita era excelente!
+Agora que estamos na ***branch*** `carbonara`, tomei a liberdade de ter criado a receita do *Spaghetti alla Carbonara* para você!
+
+```markdown
+# Macarrão à Carbonara
+
+Ingredientes:
+
+200g de macarrão tipo spaghetti ou bucatini: Opte por marcas de grano duro para garantir textura e sabor.
+150g de guanciale: Se não encontrar, utilize bacon defumado de boa qualidade em cubos.
+[...]
+```
+
+###### "Principal - Macarrão à carbonara.md"
+
+Viu só? Eu falei que essa receita era excelente!
 
 Após termos adicionado a receita na staging area e ter feito o commit, observa-se que o `git log` será assim:
 
@@ -145,5 +166,9 @@ Boa, Wanderlau! Acho que agora só falta a sobremesa, já está pensando em algo
 
 Não esqueça de empurrar as alterações para o repositório remoto!
 
+## Recomendado
 
-Continua no próximo capítulo...
+* [**Índice**](readme.md)
+* [**Parte 3 - Primeira Receita, *git diff*, *git restore* e *Tags***](Parte%203.md)
+* [**Parte 5**]()
+
