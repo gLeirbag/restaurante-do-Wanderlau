@@ -1,6 +1,21 @@
-# Parte 5 - Tracking Branches
+# Parte 5 - Branches Remotas e Tracking Branches
 
 ## Introdução
+
+
+
+## Branches Remotas
+
+No guia anterior, falamos sobre branches. Mas trabalhamos com elas apenas no seu computador. Caso queira compartilhar tua branch com o repositório remoto, você precisa explicitamente enviar ela para lá.
+
+```bash
+git push <conexão-remota> <branch-local>
+```
+
+No caso, já deletamos a branch que criamos mas registrei essa informação porque é algo relevante, Wanderlau.
+
+> [!WARNING]
+> Podemos deletar uma branch remota com o comando `git push <conexão-remota> --delete <branch-remota>`.
 
 ## Tracking Branches
 
@@ -8,7 +23,7 @@ Wanderlau... Tinha uma coisa que eu podia ter te falado mais cedo...
 
 Lá atrás, eu falei que para enviar os commits para o repositório remoto, se usa o comando `git push <conexão-remota> <branch-local>`. No nosso caso específico, usamos `git push github master`.
 
-Eu sei que é cansativo ficar escrevendo `github`e `master` toda vez, e o que eu escondi de você é que podemos evitar isso...
+Eu sei que é cansativo ficar escrevendo `github`e `master` toda vez, e o que eu escondi de você é há uma maneira de evitar isso. Me desculpe...
 
 Se usarmos git push sem argumentos recebemos uma mensagem de erro, mas ela nos dá uma dica de como resolver o problema.
 
@@ -72,6 +87,16 @@ git branch -vva
 
 Repare que agora temos a informação `[github/master]` ao lado da branch master. Isso indica que a branch master está **rastreando** a branch remota.
 
+> [!NOTE]
+Podemos ver ainda mais informações sobre as tracking branches com o comando `git remote show <repositório-remoto>`.
+
+> [!NOTE]
 Podemos desativar o tracking branch com o comando `git branch --unset-upstream`.
 
-```bash
+## Sobremesa - A Receita Final
+
+Nossa, o título ficou meio dramático, mas é isso mesmo. Para Pieter Dussuí só falta a sobremesa..
+
+Está me falando que teve a ideia perfeita? Fazer um especialíssimo *Petit Gateau*?
+
+Jogada de mestre, Wanderlau! A viagem gastronômica começa numa salada tropical remetendo ao Brasil, então viajamos para a Itália com um autêntico *Spaghetti alla Carbonara*, e trazemos Dussuí de volta a sua terra natal com um *Petit Gateau*.
