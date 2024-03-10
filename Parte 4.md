@@ -73,6 +73,8 @@ graph LR;
 
 ###### Diagrama dos Commits
 
+Podemos ainda confirmar isso com o comando `git branch`. Que nos mostra as ***branches*** existentes e qual a ***branch*** que estamos atualmente. A ***branch*** que estamos atualmente é marcada com um asterisco (* master).
+
 Para mudar para a ***branch*** `carbonara` basta usar o comando `git checkout` ou `git switch`.
 
 ```bash
