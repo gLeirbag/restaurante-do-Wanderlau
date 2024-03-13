@@ -93,10 +93,3 @@ Podemos ver ainda mais informações sobre as tracking branches com o comando `g
 > [!NOTE]
 Podemos desativar o tracking branch com o comando `git branch --unset-upstream`.
 
-## Sobremesa - A Receita Final
-
-Nossa, o título ficou meio dramático, mas é isso mesmo. Para Pieter Dussuí só falta a sobremesa..
-
-Está me falando que teve a ideia perfeita? Fazer um especialíssimo *Petit Gateau*?
-
-Jogada de mestre, Wanderlau! A viagem gastronômica começa numa salada tropical remetendo ao Brasil, então viajamos para a Itália com um autêntico *Spaghetti alla Carbonara*, e trazemos Dussuí de volta a sua terra natal com um *Petit Gateau*.
