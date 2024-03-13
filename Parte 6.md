@@ -102,7 +102,7 @@ Podemos ver os arquivos que não foram mesclados, ou seja, que estão em conflit
 
 Olha só, há linhas novas na nossa receita! Não acho que foi sua namorada quem escreveu "======", ">>>>>>>" e "<<<<<<<".
 
-O que está entre `<<<<<<< HEAD` e `=======` é o que está na nossa receita, mais especificamente o que está no nosso `HEAD`. O que está entre `=======` e `>>>>>>> github/petitGateau` é o que está na receita da sua namorada em `github/petitGateau`. Repare que o `=======` é simplesmente uma linha que separa as duas versões do arquivo. Para concertamos o conflito basta modificar o arquivo (pode-se editar manualmente) para que fique como queremos.
+O que está entre `<<<<<<< HEAD` e `=======` é o que está na nossa receita, mais especificamente o que está no nosso `HEAD`. O que está entre `=======` e `>>>>>>> github/petitGateau` é o que está na receita da sua namorada em `github/petitGateau`. Repare que o `=======` é simplesmente uma linha que separa as duas versões do arquivo. Para consertamos o conflito basta modificar o arquivo (pode-se editar manualmente) para que fique como queremos.
 
 Está me falando que gostou da ideia dela de usar morangos? E que morangos combina com chocolate amargo? Então vamos manter o chocolate amargo e adicionar os morangos. Vai continuar com o café solúvel?
 
@@ -129,3 +129,5 @@ Interessante, então deve-se usar chocolate meio amargo senão o sabor do café 
 ###### Eis a receita final
 
 Só basta salvarmos, adicionar o arquivo e commitar. A última receita está pronta.
+
+Bacana, vamos fazer o `git push` para enviar a receita para o repositório remoto. Também vamos fazer `git push --delete github petitGateau` para apagar a branch `petitGateau` do repositório remoto, já que não vai ser mais usada.

@@ -16,12 +16,13 @@ Então, você criará um diretório para armazenar as receitas? Ah, sim, suponho
 
 Olha... fiquei com água na boca com essa sua receita. Mas, Wanderlau, o que é isso? O que é esse monte de caracteres aleatórios no final do arquivo?
 
->[!WARNING] Final do arquivo "Entrada - Saladinha Básica.md"
->
-> * 2 colheres de sopa de azeite de oliva extra virgem
-> * Sal e pimenta a gosto
->AAAAAABBBBBBBCCCCCCCDDDDDDDEEEEEEEFFFFGGGGGGHHHHHHHIIIIIIJJJJJJKKKKKKLLLLLMMMMMNNNNNOOOOOOPPPPPQQQQQRRRRRSSSSSTTTTTUUUUUVVVVVVWWWWXXXYYYZZZZZ
+```markdown
+* 2 colheres de sopa de azeite de oliva extra virgem
+* Sal e pimenta a gosto
+AAAAAABBBBBBBCCCCCCCDDDDDDDEEEEEEEFFFFGGGGGGHHHHHHHIIIIIIJJJJJJKKKKKKLLLLLMMMMMNNNNNOOOOOOPPPPPQQQQQRRRRRSSSSSTTTTTUUUUUVVVVVVWWWWXXXYYYZZZZZ
+```
 
+###### final do arquivo "Entrada - Saladinha Básica.md"
 
 Oh não, Wanderlau! Está me dizendo que, após você ter adicionado o arquivo `Entrada - Saladinha Básica.md` ao repositório local com o comando `git add "Entrada - Saladinha Básica.md"` um **gato** invadiu seu escritório, pisou em seu teclado e escreveu um monte de caracteres aleatórios no arquivo?
 
