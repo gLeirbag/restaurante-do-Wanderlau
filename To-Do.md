@@ -9,7 +9,16 @@
 - [x] Escrever sobre branches e citar na parte 4.
   - [ ] Talvez devo revisar essa parte.
 - [ ]  Escrever a parte 5.
-  - [ ]  Receita da Sobremesa - Final do guia?
-  - [ ]  Escrever sobre branches remotas.
+  - [X]  Escrever sobre branches remotas.
   - [ ]  Git Rebase.
-- [ ]  Escrever a conclusão do Wanderlau.
+  - [ ]  Não esquecer de referenciar a parte 4, a parte 6 e o index.
+  - [ ]  Escrever uma introdução.
+  - [ ]  Escrever uma revisão da parte anterior
+  - [ ]  Colocar a parte 5 no index.
+- [ ]  Parte 6
+  - [ ]  Escrever sobre resolução de conflitos simples.
+  > A namorada do Wanderlau crio uma branch de uma sobremesa, o Wanderlau continuou a receita. Agora ele quer fazer o fetch dessa receita da namorada e vai dar conflito, pois ele já estava escrevendo a receita. Ele vai resolver o conflito e vai fazer o merge.
+  - [ ] Colocar a parte 6 no index.
+  - [ ] Não esquecer de referenciar a parte 5 e o index.
+  - [ ] Escrever uma introdução.
+  - [ ] Escrever uma revisão da parte anterior
