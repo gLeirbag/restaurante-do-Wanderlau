@@ -14,6 +14,8 @@ Vamos lá, Wanderlau, vamos usar a ferramenta de controle de versão Git e o Git
 - [Parte 2 - Repositório Remoto no GitHub](Parte%202.md)
 - [Parte 3 - Primeira Receita, *git diff*, *git restore* e *Tags*](Parte%203.md)
 - [Parte 4 - Branches, *git log* e Merge Fast-Forward](Parte%204.md)
+- [Parte 5 - Branches Remotas e **Tracking Branches**](Parte%205.md)
+- [Parte 6 - Resolução de Conflitos Simples](Parte%206.md)
 
 ### Outros
 

@@ -1,6 +1,12 @@
 # Resolução de Conflitos
 
-## Sobremesa - A Receita Final
+## Recapitulação da Parte 5
+
+Na parte anterior, contei a você sobre as ***tracking branches***, que são branches locais que estão "linkadas" com branches remotas. Isso permite que o git saiba para onde enviar ou de onde puxar os commits quando usamos `git push` ou `git pull` sem argumentos.
+
+## Introdução
+
+### Sobremesa - A Receita Final
 
 Nossa, o título ficou meio dramático, mas é isso mesmo. Para Pieter Dussuí só falta a sobremesa...
 
@@ -10,9 +16,9 @@ Jogada de mestre genial, Wanderlau! A viagem gastronômica perfeita. Decolamos d
 
 Vamos lá, então, para a receita final!
 
-## Introdução
+### Receita da Namorada
 
->  Wanderlau então começou a escrever a receita, mas para sua surpresa, nesse meio tempo, sua namorada enviou para o repositório uma receita especial de ***Petit Gateau***.
+>  Wanderlau então começou a escrever a receita, mas para sua surpresa, nesse meio tempo sua namorada enviou para o repositório uma receita especial de ***Petit Gateau***.
 
 Está me dizendo que você foi perguntar pra ela se lembrava da receita de ***Petit Gateau*** que vocês fizeram juntos no último aniversário dela? E de repente, ela já colocou a receita no repositório?
 
@@ -131,3 +137,14 @@ Interessante, então deve-se usar chocolate meio amargo senão o sabor do café 
 Só basta salvarmos, adicionar o arquivo e commitar. A última receita está pronta.
 
 Bacana, vamos fazer o `git push` para enviar a receita para o repositório remoto. Também vamos fazer `git push --delete github petitGateau` para apagar a branch `petitGateau` do repositório remoto, já que não vai ser mais usada.
+
+## Conclusão
+
+Nesse guia, você aprendeu a resolver conflitos de merge. De forma mais especifica, resolvemos um ***`three-way merge`***, que é o tipo de merge que ocorre quando há divergências entre as branches que estão sendo mescladas. No caso o merge envolveu o nosso commit, o commit da sua namorada e o commit que você fez antes de começar a escrever a receita, que foi o ponto de divergência das duas branches.
+
+Bom, Wanderlau. Já tem tudo que precisa... Já tens suas receitas, já sabes o básico de git. Agora é só sair da teoria e ir para a prática. Vai lá, e faça a melhor comida que o **Pieter Dussuí** já comeu! Desejo o melhor para seu estabelecimento!!
+
+## Recomendado
+
+- [Parte 5 - Branches Remotas e **Tracking Branches**](Parte%205.md)
+- [Índice](readme.md)

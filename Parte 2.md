@@ -22,7 +22,7 @@ Escolha se o repositório será público ou privado, e não marque as opções p
 
 **Isso porque já temos um repositório local**, o que planejamos fazer é somente copiar nosso repositório local para o repositório remoto vazio.
 
->[!WARNING] Aviso!
+>[!WARNING]
 > Se marcar uma opção que adicione um arquivo, o repositório remoto terá um commit que nosso repositório local não tem, o que causará um conflito.
 
 ## Adicionando uma Conexão Remota no Repositório Local

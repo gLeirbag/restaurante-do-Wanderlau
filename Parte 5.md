@@ -1,9 +1,5 @@
 # Parte 5 - Branches Remotas e Tracking Branches
 
-## Introdução
-
-
-
 ## Branches Remotas
 
 No guia anterior, falamos sobre branches. Mas trabalhamos com elas apenas no seu computador. Caso queira compartilhar tua branch com o repositório remoto, você precisa explicitamente enviar ela para lá.
@@ -93,3 +89,9 @@ Podemos ver ainda mais informações sobre as tracking branches com o comando `g
 > [!NOTE]
 Podemos desativar o tracking branch com o comando `git branch --unset-upstream`.
 
+## Recomendado
+
+
+- [**Parte 4 - Branches, *git log* e Merge Fast-Forward**](Parte%204.md)
+- [**Parte 6 - Resolução de Conflitos**](Parte%206.md)
+- [**Index**](readme.md)
