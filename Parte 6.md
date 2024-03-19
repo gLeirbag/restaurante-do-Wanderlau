@@ -146,5 +146,5 @@ Bom, Wanderlau. Já tem tudo que precisa... Já tens suas receitas, já sabes o 
 
 ## Recomendado
 
-- [Parte 5 - Branches Remotas e **Tracking Branches**](Parte%205.md)
-- [Índice](readme.md)
+- [**Parte 5 - Branches Remotas e Tracking Branches**](Parte%205.md)
+- [**Índice**](readme.md)
