@@ -1,4 +1,4 @@
-# Estados de Um Arquivo e Mais Sobre Qualquer Repositório
+# Compreendendo os Estados de Um Arquivo e as Seções de um Repositório
 
 ## Os Estados de um Arquivo
 
@@ -37,11 +37,9 @@ Um arquivo rastreado pode estar **modificado** (*modified*), ***staged*** ("No p
 
 **Staged** significa que você marcou um arquivo modificado para mandá-lo ao próximo commit.
 
-## Localidades de um Projeto Git
+## Seções de um Repositório
 
-Um projeto git possui três **localidades**:
-
-
+Um projeto git possui três **seções**:
 
 ```mermaid
 sequenceDiagram
@@ -57,7 +55,7 @@ sequenceDiagram
     
 ```
 
-###### Localidades de um Projeto Git
+###### Seções de um Projeto Git
 
 O ***working directory***, a ***staging area*** e o ***.git directory***.
 
